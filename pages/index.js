@@ -84,13 +84,13 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Coding, Kpop,{" "}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+
             Drawing
-          </Link>
+
           , Learning,{" "}
-          <Link href="https://500px.com/p/impedaka" target="_blank">
+
             Working Out
-          </Link>
+
           , Reading, Machine Learning
         </Paragraph>
       </Section>
