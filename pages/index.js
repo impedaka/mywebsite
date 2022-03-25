@@ -69,10 +69,8 @@ const Home = () => (
           I'm a web developer and digital artist based in Windsor, Canada.
           Currently a Sophomore at Vincent Massey Secondary School. I'm always
           open to challenges and constructive feedback.{" "}
-          <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
-          </NextLink>
-          .
+
+          
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
