@@ -24,15 +24,6 @@ import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 const Home = () => (
   <Layout>
     <Container>
-      {/*<Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-        Hello, I&apos;m a full-stack developer based in Japan!
-      </Box> */}
 
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
@@ -70,7 +61,7 @@ const Home = () => (
           open to challenges and constructive feedback.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/projects">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
               My portfolio
             </Button>
@@ -83,15 +74,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Kpop,{" "}
-
-            Drawing
-
-          , Learning,{" "}
-
-            Working Out
-
-          , Reading, Machine Learning
+          Coding, Kpop, Drawing, Learning, Working Out, Reading, Machine Learning
         </Paragraph>
       </Section>
 
