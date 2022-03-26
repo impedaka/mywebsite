@@ -62,7 +62,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
+            <Button rightIcon={<ChevronRightIcon />} bg="black" color="white">
               My portfolio
             </Button>
           </NextLink>
@@ -87,7 +87,7 @@ const Home = () => (
             <Link href="https://github.com/impedaka" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="pink"
+                color="#A63838"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
                 @impedaka
@@ -101,7 +101,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                colorScheme="pink"
+                color="#A63838"
                 leftIcon={<Icon as={IoLogoLinkedin} />}
               >
                 @impedaka
@@ -112,7 +112,7 @@ const Home = () => (
             <Link href="https://instagram.com/impedaka" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="pink"
+                color="#A63838"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
                 @impedaka
