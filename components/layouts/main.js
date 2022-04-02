@@ -17,9 +17,10 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Alice's homepage" />
         <meta name="author" content="Alice Yu" />
-        <meta name="author" content="craftzdog" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="author" content="Alice Yu" />
+        <link rel="apple-touch-icon" href="https://meeluf.crd.co/assets/images/image01.jpg?v=a57a04b6" />
+        <link rel="shortcut icon" href="https://meeluf.crd.co/assets/images/image01.jpg?v=a57a04b6"
+ type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@craftzdog" />
         <meta name="twitter:creator" content="@craftzdog" />
