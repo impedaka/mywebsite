@@ -5,7 +5,7 @@ import { HackGridItem, WorkGridItem } from "../components/grid-item";
 
 import sushiPreview from "../public/images/works/sushiPreview.png";
 import classPreview from "../public/images/works/classAi.png";
-import helloPreview from "../public/images/works/helloSign.png";
+import helloPreview from "../public/images/works/hellosign.png";
 import cancerPreview from '../public/images/works/cancer.png'
 
 import fire from '../public/images/works/fire.png'
