@@ -45,7 +45,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/pfppiccc.jpg"
+            src="https://meeluf.crd.co/assets/images/image01.jpg?v=a57a04b6"
             alt="Profile image"
           />
         </Box>
