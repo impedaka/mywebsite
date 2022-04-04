@@ -3,6 +3,8 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { HackGridItem, WorkGridItem } from "../components/grid-item";
 
+import paint from "../public/images/works/paint.png";
+import foxpreview from "../public/images/works/foxpreview.png";
 import sushiPreview from "../public/images/works/sushiPreview.png";
 import classPreview from "../public/images/works/classAi.png";
 import helloPreview from "../public/images/works/hellosign.png";
@@ -25,6 +27,16 @@ const Works = () => (
         <Section>
           <WorkGridItem id="sushiResturant" title="Sushi Resturant" thumbnail={sushiPreview}>
            Place orders and proceed to checkout.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="foxRunner" title="Fox Runner" thumbnail={foxpreview}>
+           ICS3U FSE project using pygame
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="msPaint" title="MS Paint Clone" thumbnail={paint}>
+           ICS3U mid term project using pygame
           </WorkGridItem>
         </Section>
         

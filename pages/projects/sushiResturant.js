@@ -11,18 +11,24 @@ const Work = () => (
         Sushi Resturant <Badge>2021-</Badge>
       </Title>
       <P>
-        Place orders and proceed to checkout. Features include ordering
+        Place orders and proceed to checkout. Other features include ordering
         different types of sushi with React Router, viewing the total number of
         items in the cart. Cart features include viewing the total price of the
         items added up, deleting items in the cart and changing the quanity of
-        the item. Items are saved and can be viewed in the Firebase. Styled with
-        Styled Components
+        the item. Finally, items are saved and can be viewed in the Firebase. The overall design was made with Styled Components.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://sushi-45add.web.app/">
             https://sushi-45add.web.app/ <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Source Code</Meta>
+
+          <Link href="https://sushi-45add.web.app/">
+            https://github.com/impedaka/restaurant <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

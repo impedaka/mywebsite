@@ -1,3 +1,4 @@
+
 import {
   Container,
   Badge,
@@ -16,31 +17,29 @@ import P from "../../components/paragraph";
 
 const Work = () => (
 
-  <Layout title="FoxRunner">
+  <Layout title="paint">
     <Container>
       <Title>
-        Fox Runner <Badge>2021-</Badge>
+        MS Paint Clone <Badge>2021-</Badge>
       </Title>
       <P>
-        Pygame game for ICS3U (FSE). Fox Runner is inspired by Dino Chrome and Flappy Bird.
+        Pygame project for ICS3U mid-term. My go-to software to make digital art :) (superior MS Paint)
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://sushi-45add.web.app/">
-            https://sushi-45add.web.app/ <ExternalLinkIcon mx="2px" />
+          <Meta>Source Code</Meta>
+          <Link href="https://github.com/impedaka/Paint">
+            https://github.com/impedaka/Paint <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Web Application</span>
+          <Meta>Game engine</Meta>
+          <span>Pygame</span>
         </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>React, Firebase</span>
-        </ListItem>
+        
       </List>
-      <WorkImage src="/images/works/sushi0.png" alt="Sushi" />
+      <WorkImage src="/images/works/paint.png" alt="Sushi" />
+
     </Container>
   </Layout>
 );
