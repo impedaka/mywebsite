@@ -10,19 +10,19 @@ const Work = () => (
       <Title>
         Sushi Resturant <Badge>2021-</Badge>
       </Title>
-      <P>Place orders and proceed to checkout.</P>
+      <P>Search and learn more about pokemon with the Pokemon Api!</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://sushi-45add.web.app/">
-            https://sushi-45add.web.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://pookedex.vercel.app/">
+            https://pookedex.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Source Code</Meta>
 
-          <Link href="https://github.com/impedaka/restaurant">
-            https://github.com/impedaka/restaurant <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/impedaka/pokedex">
+            https://github.com/impedaka/pokedex <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -31,12 +31,12 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, Firebase</span>
+          <span>Next.js, TypeScript, Pokemon API</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/sushi1.png" alt="Sushi" />
-      <WorkImage src="/images/works/sushi0.png" alt="Sushi" />
+      <WorkImage src="/images/works/pokedex1.png" alt="Sushi" />
+      <WorkImage src="/images/works/pokedex.png" alt="Sushi" />
     </Container>
   </Layout>
 );
