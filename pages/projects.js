@@ -103,7 +103,7 @@ const Works = () => (
           <HackGridItem
             id="https://github.com/impedaka/ICS3U-FSE"
             thumbnail={foxPreview}
-            title="helloSign"
+            title="Fox Runner"
           >
             Runner game made with pygame
           </HackGridItem>
@@ -112,7 +112,7 @@ const Works = () => (
           <HackGridItem
             id="https://github.com/impedaka/Paint"
             thumbnail={paintPreview}
-            title="helloSign"
+            title="MS Paint"
           >
             MS paint pygame clone
           </HackGridItem>
