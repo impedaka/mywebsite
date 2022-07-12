@@ -20,11 +20,9 @@ import Section from "../components/section";
 //import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
-
 const Home = () => (
   <Layout>
     <Container>
-
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -57,8 +55,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I'm a web developer and digital artist based in Windsor, Canada.
-          Currently a Sophomore at Vincent Massey Secondary School. I'm always
-          open to challenges and constructive feedback.
+          Currently a junior at Vincent Massey Secondary School. I'm always open
+          to challenges and constructive feedback.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
@@ -74,7 +72,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Kpop, Drawing, Learning, Working Out, Reading, Machine Learning
+          Coding, Kpop, Drawing, Learning, Working Out, Reading, Machine
+          Learning
         </Paragraph>
       </Section>
 
@@ -120,8 +119,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
- 
       </Section>
     </Container>
   </Layout>
