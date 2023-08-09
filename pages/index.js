@@ -43,7 +43,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="https://meeluf.crd.co/assets/images/image01.jpg?v=a57a04b6"
+            src="https://yt3.googleusercontent.com/fIOy1m553XVOxm0sAYMrXGNtXmV-z4Sxmr0gknLyHYyli_TLJejA0460Xg5mUMzBv3Una9LTroA=s900-c-k-c0x00ffffff-no-rj"
             alt="Profile image"
           />
         </Box>
@@ -55,7 +55,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I'm a web developer and digital artist based in Windsor, Canada.
-          Currently a junior at Vincent Massey Secondary School. I'm always open
+          Currently a senior at Vincent Massey Secondary School. I'm always open
           to challenges and constructive feedback.
         </Paragraph>
         <Box align="center" my={4}>
