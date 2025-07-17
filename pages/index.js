@@ -26,37 +26,18 @@ const Home = () => (
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Alice Yu
+            Alice Yu (俞钦枫)
           </Heading>
-          <p>Highschooler ( Artist / Developer / Designer )</p>
-        </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          textAlign="center"
-        >
-          <Image
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-            maxWidth="100px"
-            display="inline-block"
-            borderRadius="full"
-            src="https://yt3.googleusercontent.com/fIOy1m553XVOxm0sAYMrXGNtXmV-z4Sxmr0gknLyHYyli_TLJejA0460Xg5mUMzBv3Una9LTroA=s900-c-k-c0x00ffffff-no-rj"
-            alt="Profile image"
-          />
+          <p>Email: a229yu@uwaterloo.ca</p>
         </Box>
       </Box>
-
+      <br/>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           About Me
         </Heading>
         <Paragraph>
-          I'm a web developer and digital artist based in Windsor, Canada.
-          Currently a senior at Vincent Massey Secondary School. I'm always open
-          to challenges and constructive feedback.
+        Hi, I’m Alice, a sophomore studying Math at UWaterloo. I mostly build with React.js and Python, and I'm especiallyinterested in LLMs and NLP.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
@@ -72,8 +53,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, Kpop, Drawing, Learning, Working Out, Reading, Machine
-          Learning
+          Reading, Learning Mandarin, Coding, Digital art, Running, Anime
         </Paragraph>
       </Section>
 

@@ -18,6 +18,7 @@ import cancerPreview from "../public/images/works/cancer.png";
 import sumPreview from "../public/images/works/sumnotes.png";
 import foxPreview from "../public/images/works/foxpreview.png";
 import paintPreview from "../public/images/works/paint.png";
+import spaceInvadersPreview from "../public/images/works/spaceinvaders.png";
 
 const Works = () => (
   <Layout title="Works">
@@ -73,24 +74,6 @@ const Works = () => (
               Learn ASL in a fun and interactive way with machine learning.
             </HackGridItem>
           </Section>
-          <Section delay={0.3}>
-            <HackGridItem
-              id="https://devpost.com/software/classai"
-              thumbnail={classPreview}
-              title="ClassAi"
-            >
-              Ai enabled Classroom
-            </HackGridItem>
-          </Section>
-          <Section delay={0.3}>
-            <HackGridItem
-              id="https://devpost.com/software/breast-cancer-care"
-              thumbnail={cancerPreview}
-              title="Cancer Care"
-            >
-              Assess symptoms. Share stories. Support friends
-            </HackGridItem>
-          </Section>
         </SimpleGrid>
       </Section>
       <Divider my={6} />
@@ -117,12 +100,17 @@ const Works = () => (
             MS paint pygame clone
           </HackGridItem>
         </Section>
+                <Section delay={0.3}>
+          <HackGridItem
+            id="https://github.com/impedaka/space-invaders"
+            thumbnail={spaceInvadersPreview}
+            title="Space Invaders"
+          >
+            Space Invaders made with Java (Jpanel)
+          </HackGridItem>
+        </Section>
       </SimpleGrid>
       <Divider my={6} />
-      <Heading as="h3" fontSize={20} mb={4}>
-        More Will Be Added In The Future!
-      </Heading>
-      <br />
     </Container>
   </Layout>
 );
