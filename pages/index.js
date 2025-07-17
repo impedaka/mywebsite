@@ -37,7 +37,7 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-        Hi, I’m Alice, a sophomore studying Math at UWaterloo. I mostly build with React.js and Python, and I'm especiallyinterested in LLMs and NLP.
+        Hi, I’m Alice, a sophomore studying Math (Co-op) at UWaterloo. I mostly build with React.js and Python, and I'm especially interested in LLMs and NLP.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
