@@ -1,26 +1,14 @@
-# Use Node.js LTS (v18)
-FROM node:16-alpine
+FROM node:18-alpine
 
-# Set working directory
 WORKDIR /app
-
-# Copy package files first (better caching)
 COPY package*.json ./
 
-# Install dependencies (including devDependencies for building)
+# Set OpenSSL legacy provider before installing
+ENV NODE_OPTIONS="--openssl-legacy-provider"
 RUN npm install
 
-# Copy the rest of the app
 COPY . .
-
-# (Optional) Print installed Node.js & npm versions for debugging
-RUN node -v && npm -v
-
-# Build the app (skip if you just want to run `npm run dev`)
+RUN npx browserslist@latest --update-db
 RUN npm run build
-
-# Expose port (default for Next.js)
 EXPOSE 3000
-
-# Start the app (use `npm start` for production)
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
